@@ -1,0 +1,133 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #add8e6; /* Set entire background to baby blue */
+}
+
+/* White Box Section */
+
+
+/* Header Section */
+#header {
+    text-align: center; /* Center the title */
+    padding: 20px;
+    color: white;
+    background: linear-gradient(to right, darkblue, lightblue); /* Gradient background */
+    border-radius: 8px; /* Optional: rounded corners */
+    width: 100%; /* Full width */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: shadow effect */
+}
+
+#header h1 {
+    font-size: 2.5em; /* Large font for the title */
+    margin: 0; /* Remove default margin */
+}
+
+#header p {
+    font-size: 12px; /* Set font size to 12px */
+    color: white; /* Make text color white */
+    text-align: left; /* Align text to the left */
+    margin: 10px 0 0 10px; /* Space below the title */
+}
+
+/* Section Headings */
+h2, h3, h4, h5, h6 {
+    color: royalblue; /* Make all headings royal blue */
+}
+
+/* Subtle Line Under Specific Headings */
+h2.introduction::after, h2.common-octopus-species::after {
+    content: ""; /* Add an empty content for the pseudo-element */
+    display: block; /* Make it a block element */
+    width: 50%; /* Set the line's width */
+    height: 2px; /* Set the line's height */
+    background-color: royalblue; /* Subtle royal blue color for the line */
+    margin: 5px auto 0; /* Center the line below the heading */
+}
+
+/* Paragraph Text */
+p {
+    color: purple; /* Make all paragraph text purple */
+}
+
+/* List Items */
+ul li, ol li, form {
+    color: purple; /* Make all list items purple */
+}
+
+/* Octopus Quiz Section */
+#quiz-section {
+    background: lightblue; /* Make the quiz box solid royal blue */
+    padding: 20px; /* Add padding inside the box */
+    border-radius: 8px; /* Rounded corners */
+    color: white; /* Make text white */
+    white-space: nowrap; /* Prevent line breaks */
+}
+
+form{
+    display: inline-block;
+    white-space: normal;
+    margin-left: 175px;
+}
+
+label {
+    color: purple; /* Make quiz questions white */
+}
+
+#quiz-section label {
+    color: purple; /* Make quiz questions white */
+    display: inline-block; /* Place each question on a new line */
+    margin-bottom: 5px; /* Add spacing between question and answer */
+    
+}
+
+img{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+
+#species-table th {
+    background-color: gray; /* Gray header background */
+    color: white; /* White text for headers */
+    padding: 10px; /* Add padding */
+    text-align: left; /* Align text to the left */
+    width: 100%;
+}
+
+#species-table td {
+    padding: 10px; /* Add padding */
+    text-align: left; /* Align text to the left */
+    color: purple; /* Make text purple */
+}
+
+#species-table tr:nth-child(even) {
+    background-color: #add8e6; /* Baby blue for even rows */
+}
+
+#species-table tr:nth-child(odd) {
+    background-color: white; /* White for odd rows */
+}
+
+#main-content {
+    background-color: white; /* White background for the box */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Add padding */
+    margin: 20px auto; /* Center the box horizontally */
+    max-width: 800px; /* Limit the box width */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow effect */
+    border: 2px solid #cccccc; /* Add a subtle border */
+    text-align: left; /* Ensure left alignment of content */
+}
+
+
+/* Footer Section */
+#footer {
+    background-color: blue; /* Solid blue background */
+    color: white; /* White text */
+    text-align: center; /* Center align text */
+    padding: 10px; /* Add padding */
+    width: 100%; /* Full width */
+    bottom: 0; /* Align at the bottom of the viewport */
+}
